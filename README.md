@@ -1,4 +1,4 @@
 # THE-CHOICE
 
-React, TypeScript, MUI - The right choice
+React, TypeScript, MUI - project
 ![](https://github.com/michaljedro/the-choice/blob/main/gif.gif)
