@@ -1,4 +1,4 @@
 # THE-CHOICE
 
-React, TypeScript, MUI - project
+React, TypeScript, Test Driven Development, MUI - project
 ![](https://github.com/michaljedro/the-choice/blob/main/gif.gif)
