@@ -1,0 +1,20 @@
+name: React Continuous Integration
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  test_pull_request:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 14
+      - run: npm ci
+      - run: npm run lint:ci
+      - run: npm run lint-style
+      - run: npm run format
+      - run: npm run type-check
+      - run: npm run test
