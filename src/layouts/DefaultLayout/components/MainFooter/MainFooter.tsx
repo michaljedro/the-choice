@@ -58,7 +58,7 @@ export function MainFooter(): React.ReactElement {
             textAlign: { xs: 'center', md: 'right' },
           }}
         >
-          <Typography>Copyright 2023. All Rights Reserved</Typography>
+          <Typography>Copyright 2024. All Rights Reserved</Typography>
         </Grid>
       </Grid>
     </Container>
